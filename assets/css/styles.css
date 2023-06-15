@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@500&display=swap");
+
 * {
 	padding: 0;
 	margin: 0;
@@ -17,7 +18,7 @@ nav {
 	height: 100%;
 	display: flex;
 	flex-direction: column;
-	width: 25%;
+
 	top: 0;
 	left: 0;
 	color: black;
@@ -53,15 +54,19 @@ nav {
 }
 .my-button:hover {
 	background-color: #c28fb0;
+	background-color: #ffc0cb; /* Color de fondo inicial */
+	transition: background-color 0.3s; /* Agrega una transición suave */
 }
 .chat-button:hover {
 	background-color: #f294d1;
+	background-color: #ffc0cb; /* Color de fondo inicial */
+	transition: background-color 0.3s; /* Agrega una transición suave */
 }
 .status {
 	font-size: 10px;
 }
 .mimg {
-	width: 45px;
+	width: 40px;
 }
 
 nav img {
@@ -77,6 +82,12 @@ nav img {
 	font-size: 20px;
 	margin-left: auto;
 	margin-right: 30px;
+}
+
+.emotes:hover {
+	color: #ae91b2;
+	background-color: #ffc0cb; /* Color de fondo inicial */
+	transition: background-color 0.3s; /* Agrega una transición suave */
 }
 nav ul {
 	list-style: none;
@@ -103,7 +114,7 @@ nav p {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	width: 75%;
+	flex-basis: 75%;
 }
 .content p {
 	text-align: center;
