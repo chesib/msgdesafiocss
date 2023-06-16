@@ -14,19 +14,22 @@ main {
 nav {
 	background-color: rgb(226, 226, 226);
 	border: 2px solid #d3d3d3;
-	flex-basis: 25%;
+	width: 25%;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
-
 	top: 0;
 	left: 0;
 	color: black;
 }
 .mylist {
 	display: flex;
-
-	justify-content: start;
+	justify-content: center;
+	align-items: center;
+}
+.mylist2 {
+	display: flex;
+	justify-content: center;
 	align-items: center;
 }
 .my-button {
@@ -74,7 +77,6 @@ nav img {
 	border-radius: 50%;
 	margin-bottom: 1rem;
 	margin-top: 1rem;
-
 	margin-left: 1rem;
 }
 .emotes {
@@ -114,7 +116,7 @@ nav p {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	flex-basis: 75%;
+	width: 75%;
 }
 .content p {
 	text-align: center;
