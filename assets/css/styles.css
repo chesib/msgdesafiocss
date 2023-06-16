@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@500&display=swap");
 
-* {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-}
 body {
 	font-family: "Open Sans", sans-serif;
 }
@@ -26,6 +21,14 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.mylist:hover {
+	background-color: rgb(178, 145, 170);
+	transition: 0.3s;
+}
+.mylist2:hover {
+	background-color: rgb(178, 145, 170);
+	transition: 0.3s;
 }
 .mylist2 {
 	display: flex;
@@ -70,6 +73,8 @@ nav {
 }
 .mimg {
 	width: 40px;
+	margin-left: 30px;
+	margin-bottom: 30px;
 }
 
 nav img {
