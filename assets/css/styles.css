@@ -35,6 +35,10 @@ nav {
 	justify-content: center;
 	align-items: center;
 }
+.maria {
+	margin-left: 10px;
+	margin-bottom: 0;
+}
 .my-button {
 	background-color: #ae91b2;
 	color: rgb(0, 0, 0);
@@ -59,12 +63,10 @@ nav {
 	cursor: pointer;
 }
 .my-button:hover {
-	background-color: #c28fb0;
 	background-color: #ffc0cb; /* Color de fondo inicial */
 	transition: background-color 0.3s; /* Agrega una transición suave */
 }
 .chat-button:hover {
-	background-color: #f294d1;
 	background-color: #ffc0cb; /* Color de fondo inicial */
 	transition: background-color 0.3s; /* Agrega una transición suave */
 }
@@ -72,7 +74,7 @@ nav {
 	font-size: 10px;
 }
 .mimg {
-	width: 40px;
+	width: 50px;
 	margin-left: 30px;
 	margin-bottom: 30px;
 }
